@@ -1,0 +1,29 @@
+body,ul {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+}
+.wrapper ul{
+  padding: 10px;
+  box-sizing: border-box;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px 10px;
+}
+
+.wrapper  ul li {
+  border-radius: 10%;
+  background-color: orange;
+}
