@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wrapper div {
+  width: 30vw;
+  height: 30vw;
+  margin-top: 2vw;
+  border-radius: 10px;
+  background-color: orange;
+  float: left;
+  box-sizing: border-box;
+}
+.wrapper div:nth-child(3n+2) {
+    margin-left: 0;
+    margin-right: 0;
+}

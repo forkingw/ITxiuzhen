@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 100vmin;
+  height: 100vmin;
+}
+.wrapper::after{
+  content: '';
+  clear: both;
+}
+.wrapper div {
+  margin: 2vmin 2vmin 0;
+  width: 30vmin;
+  height: 30vmin;
+  border-radius: 10px;
+  background-color: orange;
+  float: left;
+  box-sizing: border-box;
+}
+.wrapper div:nth-child(3n+2) {
+    margin-left: 0;
+    margin-right: 0;
+}

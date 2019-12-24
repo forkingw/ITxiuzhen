@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+.wrapper{
+  width: 100%;
+}
+.wrapper::after{
+  content: '';
+  clear: both;
+}
+.wrapper div {
+  margin: 8px;
+  width: calc((100% - 48px) / 3);
+  padding-top: calc((100% - 48px) / 3);
+  border-radius: 10px;
+  background-color: orange;
+  float: left;
+  box-sizing: border-box;
+}
