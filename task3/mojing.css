@@ -1,0 +1,83 @@
+:root,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+body,p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  background-color: #68cdd5;
+  position: relative;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.wrapper .center {
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper .back {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+  width: 35px;
+  height: 35px;
+  background-image: url(./img/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper .center .logo {
+  width: 4.5rem;
+  height: auto;
+  margin: 2.9rem auto;
+  display: block;
+}
+
+.wrapper .center > p {
+  font-size: 0.7rem;
+}
+
+.wrapper .center .groups{
+  margin-top: 4.2rem;
+  height: 218px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .center .groups .group {
+  height: 65px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: .6rem;
+}
+.wrapper .center .groups .group>img{
+  width: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  :root {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    font-size: 38px;
+  }
+}
