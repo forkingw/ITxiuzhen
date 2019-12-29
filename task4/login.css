@@ -1,0 +1,105 @@
+:root {
+  font-size: 20px;
+  color: white;
+}
+body,
+button{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  background-color: #eff0f4;
+
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 0.375rem;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 2.2rem;
+  background-color: #5ac0ce;
+}
+.header div {
+  position: absolute;
+  width: 2.25rem;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.8;
+}
+.header .closed {
+  left: 15px;
+}
+.header .login {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header .register {
+  right: 15px;
+}
+
+form .space {
+  display: flex;
+  width: 100%;
+  margin: .5rem 0;
+  background-color: white;
+}
+
+form .space label {
+  display: inline-block;
+  font-size: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+  vertical-align: middle;
+}
+
+form .space label[for="iphone"] {
+  background-image: url(./img/iphone.png);
+}
+form .space label[for="pw"] {
+  background-image: url(./img/locked.png);
+}
+
+form .space input {
+  flex: 1;
+  outline: none;
+  border: none;
+  height: 2.5rem;
+  border-left: 2px solid #eaedee;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+from .space input::placeholder {
+  color: #eaedee;
+}
+
+form button {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 2.2rem;
+  color: white;
+  font-size: 0.8rem;
+  background-color: #5ac0ce;
+}
+
+.forget {
+  float: right;
+  padding: 10px;
+  color: #5ac0ce;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  :root {
+    font-size: 16px;
+  }
+}
