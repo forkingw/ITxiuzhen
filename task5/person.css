@@ -1,0 +1,147 @@
+:root {
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  font: .9rem/2 Helvetica, Arial;
+  color: #fff;
+}
+.padding {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+header {
+  position: relative;
+  background-color: #5ac0ce;
+}
+header .back {
+  position: absolute;
+  left: 0.75rem;
+  width: 0.75rem;
+  height: 100%;
+  vertical-align: middle;
+  background-image: url(img/back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 50%;
+}
+header .title {
+  text-align: center;
+}
+
+main .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8.25rem;
+  background-image: url(img/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .banner .person-message {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.banner .person-message img {
+  width: 4.25rem;
+  height: 4.25rem;
+}
+.banner .person-message .message {
+  padding-left: 30px;
+}
+.person-message .message .location {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  background-image: url(img/location.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-message .message .message2 {
+  font-size: .9em;
+}
+
+main .introduct {
+  font-size: .8rem;
+  line-height: 1;
+  color: #000;
+}
+
+/* main .introduct dl {
+  padding: 0 .75rem;
+} */
+
+main .introduct dt,
+main .introduct dd {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  padding: .875rem .75rem;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+main .introduct dt {
+  margin-left: 0;
+}
+
+main .introduct dt::before {
+  content: "|";
+  color: #5ac0ce;
+  margin-right: 1.5rem;
+}
+
+main .introduct .treatment::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background-image: url(img/red-star.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+main .introduct .gray {
+  width: 3.25rem;
+  color: #b3b3b3;
+}
+main .introduct .division {
+  width: 1px;
+  height: 1em;
+  margin: 0 .5rem;
+  background-color: #e1e5e7;
+}
+main .introduct .content {
+  flex: 1;
+}
+
+main .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.375rem 0.75rem 1rem;
+}
+main .buttons button {
+  width: 7.5rem;
+  height: 2.25rem;
+  border: 1px solid #5ac0ce;
+  border-radius: 5px;
+}
+main .buttons button:nth-child(1) {
+  background-color: #fff;
+}
+main .buttons button:nth-child(2) {
+  border: none;
+  color: #fff;
+  text-align: center;
+  background-color: #5ac0ce;
+}
+
+@media screen and (min-width: 320px) {
+  :root {
+    font-size: 18px;
+  }
+}
