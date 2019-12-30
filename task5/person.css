@@ -118,7 +118,9 @@ main .introduct .division {
 main .introduct .content {
   flex: 1;
 }
-
+main .introduct .hour {
+  color: #e46060;
+}
 main .buttons {
   display: flex;
   justify-content: space-between;
