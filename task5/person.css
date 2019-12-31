@@ -12,6 +12,8 @@ body {
 }
 header {
   position: relative;
+  height: 2rem;
+  line-height: 2rem;
   background-color: #5ac0ce;
 }
 header .back {
