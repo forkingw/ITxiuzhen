@@ -1,0 +1,107 @@
+:root {
+    font-size: 20px;
+}
+:root,
+body,
+.page {
+    height: 100%;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header,
+main,
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+header {
+    top: 0;
+    height: 45px;
+    background-color: #5fc0cd;
+    text-align: center;
+}
+.map {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: .75rem;
+    width: 1.125rem;
+    height: 2.375rem;
+    background-image: url(img/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.buttons {
+    top: 5px;
+}
+
+.btn {
+    border: none;
+}
+
+.btn-primary {
+    background-color: #55a8b3;;
+    color: #fff;
+}
+.btn-default {
+    /* background-color: #fff; */
+    color: #5fc0cd;
+}
+/* --------------------- */
+
+main {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.selete a {
+    color: #afbac0;
+}
+.list {
+    overflow: auto;
+}
+
+
+
+/* --------------------- */
+
+footer {
+    height: 50px;
+    bottom: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    background-color: #f8fafb;
+    text-align: center;
+    box-shadow: 0 -1px 1px 0px #e2eaec;
+}
+.icon {
+    font-size: 20px;
+    color: #999;
+}
+.icon.actived {
+    color: #5fc0cd;
+}
+.icon > div {
+    font-size: 12px;
+}
+
+.edit {
+    /* display: inline; */
+    width: 48px;
+    height: 48px;
+    font-size: 1rem;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #5fc0cd;
+    border-radius: 50%;
+}

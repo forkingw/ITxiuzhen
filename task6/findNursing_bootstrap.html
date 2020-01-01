@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="findNursing_bootstrap.css">
+    <title>护工列表（bootstrap）</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="container-fluid">
+            <div class="btn-group buttons" role="group" aria-label="group">
+                <button type="button" class="btn btn-primary">找雇主</button>
+                <button type="button" class="btn btn-default">找护工</button>
+            </div>
+            <div class="map"></div>
+        </header>
+        <main class="container-fluid">
+            <ul class="nav nav-pills row center-block selete" role="tablist">
+                <li role="presentation col-xs-4 col-sm-4 col-md-4" class="dropdown">
+                    <a id="drop4" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        所在地
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="menu1" class="dropdown-menu" aria-labelledby="drop4">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Action</a></li>
+                    </ul>
+                </li>
+                <li role="presentation col-xs-4 col-sm-4 col-md-4" class="dropdown">
+                    <a id="drop5" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        食宿
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="menu2" class="dropdown-menu" aria-labelledby="drop5">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Action</a></li>
+                    </ul>
+                </li>
+                <li role="presentation col-xs-4 col-sm-4 col-md-4" class="dropdown">
+                    <a id="drop6" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        病人情况
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="menu3" class="dropdown-menu" aria-labelledby="drop6">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Action</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="list">
+                <div class="panel panel-default">
+                    <!-- List group -->
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 icon actived">
+                    <span class="glyphicon glyphicon-home actived" aria-hidden="true"></span>
+                    <div>首页</div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <div class="edit center-block">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 icon">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <div>我的</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
