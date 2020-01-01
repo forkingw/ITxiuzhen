@@ -25,10 +25,6 @@ dd {
   margin: 0;
 }
 
-/* .test {
-  border: 1px solid #000000;
-  box-sizing: border-box;
-} */
 /* ---- start header --- */
 header {
   position: fixed;
@@ -77,24 +73,28 @@ header {
 /* ---- start main ---- */
 
 main {
-  margin: 2.25rem 0 2.6rem;
+  margin: 4.25rem 0 2.6rem;
   overflow: hidden;
 }
 
 main .selete {
-  position: relative;
+  position: fixed;
+  top: 2.25rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.1rem;
   font-size: .7rem;
-  height: 1.5rem;
   line-height: 1.5rem;
   padding: .3rem .75rem;
   color: #afbac0;
+  background-color: #fff;
   border-bottom: 1px solid #e1e5e7;
+  cursor: default;
 }
 
 main .selete .options {
   position: absolute;
   width: calc(100% / 3);
-
   text-align: center;
   background-color: #fff;
 }
@@ -132,7 +132,7 @@ main .selete .options dd {
 main .selete .options .option-content {
   height: 0;
   overflow: hidden;
-  transition: all .6s;
+  transition: all .3s;
 }
 main .selete .options .option-content.show {
   height: 90px;
