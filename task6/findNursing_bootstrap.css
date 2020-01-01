@@ -1,9 +1,8 @@
 :root {
     font-size: 20px;
 }
-:root,
-body,
-.page {
+
+:root, body, .page {
     height: 100%;
 }
 
@@ -15,19 +14,19 @@ body,
     bottom: 0;
 }
 
-header,
-main,
-footer {
+header, main, footer {
     position: absolute;
     left: 0;
     right: 0;
 }
+
 header {
     top: 0;
     height: 45px;
     background-color: #5fc0cd;
     text-align: center;
 }
+
 .map {
     display: inline-block;
     position: absolute;
@@ -40,6 +39,7 @@ header {
     background-position: center;
     background-size: contain;
 }
+
 .buttons {
     top: 5px;
 }
@@ -49,27 +49,105 @@ header {
 }
 
 .btn-primary {
-    background-color: #55a8b3;;
+    background-color: #55a8b3;
+    ;
     color: #fff;
 }
+
 .btn-default {
     /* background-color: #fff; */
     color: #5fc0cd;
 }
+
 /* --------------------- */
 
 main {
-    margin-top: 45px;
-    margin-bottom: 50px;
+    top: 45px;
+    bottom: 50px;
 }
+
 .selete a {
     color: #afbac0;
 }
+
+.nav>li>a {
+    padding: 10px 6px;
+}
+.nav-pills>li+li {
+    margin-left: 0;
+}
+.dropdown.col-xs-4.col-sm-4.col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.dropdown-menu{
+    width: 100%;
+    min-width: auto;
+}
+.caret{
+    position: absolute;
+    top: 18px;
+    right: 10px;;
+}
 .list {
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 1.8;
+    color: #999;
     overflow: auto;
 }
 
+.serve-name::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url(img/date.jpg);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: -3px;
+}
 
+.serve-address::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url(img/location2.jpg);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: -3px;
+}
+
+.serve-date {
+    padding-left: 15px;
+    font-size: 15px;
+    color: #000;
+}
+
+.serve-price {
+    font-size: 16px;
+    color: #e63b0e;
+}
+
+.serve-price::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(img/edit.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    vertical-align: middle;
+}
 
 /* --------------------- */
 
@@ -83,14 +161,17 @@ footer {
     text-align: center;
     box-shadow: 0 -1px 1px 0px #e2eaec;
 }
+
 .icon {
     font-size: 20px;
     color: #999;
 }
+
 .icon.actived {
     color: #5fc0cd;
 }
-.icon > div {
+
+.icon>div {
     font-size: 12px;
 }
 
