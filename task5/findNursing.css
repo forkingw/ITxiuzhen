@@ -77,17 +77,45 @@ header {
 /* ---- start main ---- */
 
 main {
-  margin: 2rem 0 2.6rem;
+  margin: 2.25rem 0 2.6rem;
+  overflow: hidden;
 }
 
 main .selete {
-  display: flex;
-  padding: .3rem .75rem;
+  position: relative;
   font-size: .7rem;
+  height: 1.5rem;
   line-height: 1.5rem;
+  padding: .3rem .75rem;
   color: #afbac0;
   border-bottom: 1px solid #e1e5e7;
 }
+
+main .selete .options {
+  position: absolute;
+  width: calc(100% / 3);
+
+  text-align: center;
+  background-color: #fff;
+}
+
+main .selete .options:nth-child(1) {
+  left: 0;
+}
+
+main .selete .options:nth-child(2) {
+  left: calc(100% / 3);
+  
+  border-left: 1px solid #e1e5e7;
+  border-right: 1px solid #e1e5e7;
+
+  box-sizing: border-box;
+}
+
+main .selete .options:nth-child(3) {
+  right: 0;
+}
+
 main .selete .options > dt::after {
   content: "";
   display: inline-block;
@@ -102,7 +130,12 @@ main .selete .options dd {
 }
 
 main .selete .options .option-content {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: all .6s;
+}
+main .selete .options .option-content.show {
+  height: 90px;
 }
 
 main .item {
