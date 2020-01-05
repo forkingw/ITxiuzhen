@@ -80,7 +80,7 @@ main {
     border-bottom-style: solid;
 }
 
-.carousel-inner .item dl dd>div {
+.carousel-inner .item dl dd div {
     /* margin-top: 15px; */
     margin-left: auto;
     margin-right: auto;

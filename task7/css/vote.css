@@ -40,8 +40,17 @@ header {
     background-color: #29bde0;
 }
 .glyphicon-list-alt,
-.glyphicon-remove {
+.glyphicon-remove,
+.close {
     line-height: 2.2rem;
+}
+.close {
+    font-size: 30px;
+    color: #fff;
+    opacity: 1;
+}
+.close:focus, .close:hover {
+    color: #fff;
 }
 .glyphicon-list-alt {
     float: left;
@@ -206,3 +215,31 @@ footer .btn-vote {
 
 /* ---- end footer ---- */
 
+/* ---- 拟态框 ---- */
+@media (max-width: 768px) {
+    .modal-dialog {
+        width: 230px;
+    }
+}
+.modal .modal-dialog.modal-dialog-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modal-body p{
+    margin-bottom: 0;
+    line-height: 30px;
+    text-align: center;
+}
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    border: none;
+}
+.btn-gray {
+    background-color: #c6c6c6;
+}
+/* ----  End 拟态框 ---- */

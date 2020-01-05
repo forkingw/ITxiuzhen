@@ -35,15 +35,21 @@
                         <dl>
                             <dt>捉鬼游戏1</dt>
                             <dd>
-                                <div>简化版</div>
+                                <a href="./vote.html">
+                                    <div>简化版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                             <dd>
-                                <div>猜词版</div>
+                                <a href="./vote.html">
+                                    <div>猜词版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                             <dd>
-                                <div>白痴版</div>
+                                <a href="./vote.html">
+                                    <div>白痴版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                         </dl>
@@ -52,15 +58,21 @@
                         <dl>
                             <dt>捉鬼游戏2</dt>
                             <dd>
-                                <div>简化版</div>
+                                <a href="./vote.html">
+                                    <div>简化版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                             <dd>
-                                <div>猜词版</div>
+                                <a href="./vote.html">
+                                    <div>猜词版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                             <dd>
-                                <div>白痴版</div>
+                                <a href="./vote.html">
+                                    <div>白痴版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                         </dl>
@@ -69,15 +81,21 @@
                         <dl>
                             <dt>捉鬼游戏3</dt>
                             <dd>
-                                <div>简化版</div>
+                                <a href="./vote.html">
+                                    <div>简化版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                             <dd>
-                                <div>猜词版</div>
+                                <a href="./vote.html">
+                                    <div>猜词版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                             <dd>
-                                <div>白痴版</div>
+                                <a href="./vote.html">
+                                    <div>白痴版</div>
+                                </a>
                                 <p>有1133个用户正在玩此款游戏</p>
                             </dd>
                         </dl>
@@ -117,15 +135,11 @@
         function prohibit() {
             var len = $('#carousel-example-generic .carousel-indicators li').length;
             var num = $('#carousel-example-generic .carousel-indicators li.active').attr('data-slide-to');
-            console.log('len:' + len);
-            console.log('num:' + num);
             if (num == len - 1) {
-                console.log('right');
                 $('#carousel-example-generic .right').css('display', 'none');
             } else if (num == 0) {
-                console.log('left')
                 $('#carousel-example-generic .left').css('display', 'none');
-            }else {
+            } else {
                 $('#carousel-example-generic .right').add('#carousel-example-generic .left').css('display', 'block');
             }
 

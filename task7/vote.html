@@ -16,7 +16,10 @@
         <header class="container-fluid">
             <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
             <span>投票</span>
-            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            <!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+            <button type="button" class="close" data-toggle="modal" data-target="#myModal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </header>
         <main>
             <div>
@@ -225,7 +228,19 @@
             <button type="button" class="btn btn-vote">投死</button>
         </footer>
     </div>
-
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <p>确定结束本轮游戏吗?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="./result.html" type="button" class="btn btn-danger">确定</a>
+                <a type="button" class="btn btn-gray" data-dismiss="modal">取消</a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"

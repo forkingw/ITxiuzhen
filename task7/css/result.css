@@ -22,6 +22,10 @@ ul {
     list-style: none;
 }
 
+a {
+    color: #fff;
+}
+
 /* ----- header ----- */
 header {
      top: 0;
