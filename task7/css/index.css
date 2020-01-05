@@ -1,0 +1,135 @@
+html {
+    font-size: 20px;
+}
+
+html, body, .page {
+    height: 100%;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+header, main {
+    position: absolute;
+}
+
+.border-gray {
+    border: 1px solid #c9c9c9;
+}
+
+/* ----- header ------ */
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    font-size: .85rem;
+    color: #fff;
+    background-color: #29bde0;
+}
+
+/* ---- end    header ------ */
+
+/* -----  main  ------- */
+
+main {
+    margin-top: 2.2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.last-time {
+    margin-top: 23px;
+    margin-bottom: 23px;
+    font-size: 17px;
+    line-height: 3.125rem;
+    text-align: center;
+    color: #a9a9a9;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+.right-arrow {
+    float: right;
+    margin-right: 10px;
+    line-height: 3.125rem;
+    color: #e7e7e7;
+    vertical-align: middle;
+}
+
+.carousel-inner {
+    background-color: #fff;
+}
+
+.carousel-inner .item dl dt {
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fbb435;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.carousel-inner .item dl dd>div {
+    /* margin-top: 15px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 72.5%;
+    height: 3.375rem;
+    font-size: 16px;
+    line-height: 3.375rem;
+    text-align: center;
+    color: #fff;
+    background-color: #69d1e9;
+}
+
+.carousel-inner .item dl dd>p {
+    margin-bottom: 0;
+    height: 37.5px;
+    text-align: center;
+    line-height: 37.5px;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none;
+    opacity: 1;
+}
+
+.carousel-indicators {
+    bottom: -5px;
+}
+
+.carousel-indicators li {
+    background-color: #f0f0f0;
+}
+
+.carousel-indicators .active {
+    background-color: #69d1e9;
+}
+
+.glyphicon-chevron-right,
+.glyphicon-chevron-left {
+    font-size: 28px;
+    color: #fbb435;
+    text-shadow: none;
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e250";
+}
+.glyphicon-chevron-left::before {
+    content: "\e251";
+}
+
+/* ---  end   main ------- */

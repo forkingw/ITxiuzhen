@@ -1,0 +1,105 @@
+html {
+    font-size: 20px;
+}
+html,
+body,
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+header,
+main,
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+/* ----- header ----- */
+header {
+     top: 0;
+     font-size: 17px;
+     line-height: 2rem;
+     color: #fff;
+     background-color: #29bde0;
+}
+
+/* ----- end header ----- */
+
+/* ---- main ---- */
+main {
+    margin-top: 2rem;
+    margin-bottom: 3.25rem;
+    /* padding-left: 35px;
+    padding-right: 35px; */
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+main .winner {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 1px;
+    letter-spacing: 1px;
+    background-color: #29bde0;
+}
+main .winner .img-responsive {
+    width: 165px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main .winner p:first-of-type {
+    font-size: 15px;
+    color: #ffc865;
+}
+main .winner p:last-of-type {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
+}
+main .details {
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #d3d3d3;
+    background-color: #fff;
+}
+main .details ul li {
+    margin-bottom: 15px;
+}
+main .details ul li > div:first-child {
+    line-height: 30px;
+}
+main .details ul li > div:last-child {
+    line-height: 20px;
+}
+.days {
+    color: #515151;
+}
+
+/* ---- end main ---- */
+
+/* ---- footer ---- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 3.25rem;
+    background-color: rgba(41,189,224,.5);
+}
+footer > .btn-lg {
+    width: 135px;
+    height: 45px;
+}
+/* ---- end footer ---- */
