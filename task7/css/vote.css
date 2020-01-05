@@ -24,6 +24,9 @@ ul {
     margin-bottom: 0;
     list-style: none;
 }
+a {
+    color: #fff;
+}
 
 /* ---- header ---- */
 
