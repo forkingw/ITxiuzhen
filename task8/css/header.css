@@ -1,0 +1,72 @@
+header {
+    font-size: 20px;
+    background-color: #29b078;
+}
+
+.contact-information {
+    background-color: #fff;
+}
+
+.contact-information .row .col {
+    color: #29b078;
+    height: 2em;
+    line-height: 2em;
+}
+
+.contact-information .row .col:first-child {
+    font-size: .8em;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+.contact-information .row i {
+    font-size: 1.25em;
+}
+
+.contact-information .row i:nth-of-type(2) {
+    margin-left: .75em;
+    margin-right: .75em;
+}
+
+header > .container {
+    /* padding-top: 1em;
+    padding-bottom: 1em; */
+    line-height: 5em;
+}
+.navbar {
+    padding: 0;
+    font-size: 1em;
+}
+
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    box-sizing: border-box;
+    font-size: .9em;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-item {
+    height: 5em;
+}
+.navbar-light .navbar-nav .active {
+    border-bottom: 2px solid #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #fff;
+}
+@media (max-width: 576px) { 
+    header > .container {
+        line-height: 3em;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        height: 2.5em;
+        text-align: center;
+    }
+}

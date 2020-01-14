@@ -1,0 +1,102 @@
+a {
+    color: #5ec499;
+}
+a:hover {
+    color: #ff6d1b;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link {
+    color: #5ec499;
+    background-color: transparent;
+}
+.banner img {
+    width: 100%;
+}
+/* ----- 面包屑 ----- */
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item>a {
+    color: #333;
+}
+
+.breadcrumb-item.active {
+    color: #29b078;
+}
+/* ----- End 面包屑 ----- */
+
+main .row {
+    align-items: flex-start;
+}
+
+.enterprise {
+    margin-right: 25px;
+    margin-bottom: 225px;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+.cooperative-title {
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.enterprise .nav-link {
+    width: 120px;
+    margin: auto;
+}
+.enterprise .nav-pills {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+
+.enterprise .nav-link .prefix {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border: 1px solid #ff6d1b;
+    border-radius: 50%;
+}
+.enterprise .nav-link.active{
+    color: #ff6d1b;
+}
+.enterprise .nav-link.active .prefix {
+    background-color: #f9a372;
+}
+
+.enterprise-content {
+    min-height: 60px;
+    margin-bottom: 225px;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+
+.enterprise-content .tab-pane {
+    padding-bottom: 100px;
+}
+
+#v-pills-tabContent p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 2;
+    color: #999;
+    text-indent: 2em;
+}
+
+#v-pills-tabContent .brief-introduction {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#v-pills-tabContent .brief-introduction p {
+    margin: 0;
+    text-indent: 0em;
+}

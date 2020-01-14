@@ -1,0 +1,191 @@
+h5 {
+    text-align: center;
+    color: #000;
+}
+main {
+    color: #29b078;
+
+}
+/* -----    轮 播 图   ----- */
+#carouselExampleIndicators .carousel-indicators li,
+#studentShow .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+}
+#studentShow .carousel-indicators li {
+    border: none;
+    box-shadow: 0 1px 5px 3px #e3e3e3;
+}
+#carouselExampleIndicators .carousel-indicators .active,
+#studentShow .carousel-indicators .active {
+    background-color: #29b078;
+}
+#studentShow .carousel-indicators {
+    bottom: -45px;
+}
+
+
+/* -----  End 轮 播 图  ----- */
+
+/* ---- advantage ----- */
+.advantage {
+    margin-top: 160px;
+    margin-bottom: 95px;
+}
+.advantage p {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+.advantage .col-md-3 {
+    height: 265px;
+}
+.advantage .col-md-3 .text-center .jns {
+    font-size: 55px; 
+}
+.advantage .col-md-3 > div {
+    font-size: 18px;
+}
+.advantage .col-md-3:last-child {
+    border-left: 1px dashed #dedede;
+}
+.advantage .col-md-3:last-child > div {
+    position: absolute;    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 135px;
+    margin: auto;
+}
+@media (max-width: 576px) { 
+    .advantage {
+        margin-top: 50px;
+        /* margin-bottom: ; */
+    }
+    .advantage p {
+        text-align: center;
+    }
+    .advantage .col-md-3 {
+        height: 180px;
+    }
+}
+
+/* ---- End  advantage ----- */
+
+
+/* ------- 如何学习 ------- */
+
+.how-study .list-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    font-size: 20px;
+}
+.how-study .list-item .item-part {
+    margin-bottom: 10px;
+}
+.how-study .list-item .order-number {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    margin-right: 5px;
+    border-radius: 50%;
+    line-height: 3em;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px #e9e9e9;
+}
+.how-study .list-item .jns {
+    margin-right: 5px;
+}
+.how-study .list-item p {
+    display: inline-block;
+    width: 10em;
+    font-size: .7em;
+    color: #a6a6a6;
+    vertical-align: middle;
+}
+.how-study .list-item .iconrightarrow::before {
+    font-size: 1.25em;
+    text-shadow: 0 0 5px #fff,
+                 0 0 5px #fff,                
+                 0 0 5px #fff,
+                 -1px -1px 5px #a2a2a2,
+                 1px 1px 5px #a2a2a2;
+}
+@media (max-width: 576px) {
+    /* .how-study .list-item {
+        flex-wrap: wrap;
+    } */
+}
+/* ---- End 如何学习 ---- */
+
+/* ----- 优秀学员展示 ----- */
+.show-good-student h5 {
+    margin-bottom: 30px;
+}
+.show-good-student .card {
+    min-width: 240px;
+    width: 23%;
+    height: 370px;
+}
+.show-good-student .card img {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+}
+.show-good-student .card .card-text {
+    font-size: 14px;
+    color: #999;
+}
+
+/* ----- End 优秀学员展示 ----- */
+
+/* ----- 战略合作企业 ----- */
+.cooperative-enterprise h5 {
+    margin-top: 165px;
+    margin-bottom: 65px;
+}
+.w-20 {
+    width: 20%;
+}
+
+/* ----- End  战略合作企业 ----- */
+
+/* ----- 友情链接 ----- */
+.friendly-link {
+    margin-top: 90px;
+    color: #999;
+    background-color: #fff;
+}
+.friendly-link h5 {
+    line-height: 60px;
+}
+.friendly-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.friendly-link ul li {
+    width: 10%;
+    min-width: 100px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.empty {
+    width: 10%;
+    min-width: 100px;
+    height: 0;
+    list-style: none;
+    visibility: hidden;
+}
+
+/* ----- End  友情链接 ----- */

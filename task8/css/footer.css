@@ -1,0 +1,54 @@
+footer {
+    padding-top: 35px;
+    color: #fff;
+    background-color: #26a26f;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+footer h6 {
+    line-height: 25px;
+}
+footer .col-md-4 {
+    padding-bottom: 15px;
+}
+footer .col-md-4:last-child {
+    text-align: right;
+}
+footer > div:last-child {
+    font-size: 12px;
+    line-height: 30px;
+    border-top: 1px solid #32c086;
+}
+footer .col-md-4 .content {
+    height: 95px;
+    font-size: 14px;
+    line-height: 47px;
+}
+footer .col-md-4 .content.first {
+    display: flex;
+    align-items: flex-end;
+}
+footer .col-md-4 .content.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .col-md-4 .second a {
+    display: inline-block;
+    width: 100px;
+}
+footer .col-md-4 .content img {
+    height: 100%;
+}
+@media screen and (max-width: 576px) {
+    footer .col-md-4:last-child {
+        text-align: left;
+    }
+}
